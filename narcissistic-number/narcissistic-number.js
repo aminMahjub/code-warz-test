@@ -6,4 +6,5 @@ function  NarcissisticNumber(n) {
     sumOfDigits = sumOfDigits.reduce((acc, number) => acc + number);
 
     return sumOfDigits === n ? `${n} is Narcissistic Number` : 'This is non-narcissistic number';
+
 }
